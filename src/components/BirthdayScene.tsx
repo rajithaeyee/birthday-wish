@@ -78,6 +78,12 @@ const BirthdayScene = () => {
         )}
       </svg>
 
+      <button
+        onClick={triggerCelebrationPopper}
+        className="absolute bottom-16 left-1/2 transform -translate-x-1/2 px-6 py-3 bg-pink-500 text-white rounded-full text-lg hover:bg-pink-600 transition z-10"
+      >
+        Happy Birthday! 🎉
+      </button>
     </div>
   );
 };
